@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background-color: #0e56ddea;
+}
+body > a  img{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+}

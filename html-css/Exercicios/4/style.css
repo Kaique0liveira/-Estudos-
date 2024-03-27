@@ -1,0 +1,147 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(69, 117, 85);
+}
+header{
+    background-image: linear-gradient(to bottom, rgb(88, 192, 88), rgb(48, 88, 48));
+    min-height: 150px;
+}
+header  h1{
+    font-weight: normal;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(210, 247, 158);
+    text-align: center;
+    font-size: 3.3em;
+    padding-top: 25px;
+    margin-bottom: 5px;
+}
+header  p{
+    text-align: center;
+    font-size: 15px;
+}
+h2{
+    padding: 10px;
+}
+p{
+    font-size: 1em;
+    text-indent: 5px;
+    text-align: justify;
+    padding: 5px;
+}
+nav{
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.185);
+}
+
+nav  a{
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+nav  a:hover{
+    background-color:  rgba(54, 88, 41, 0.158);
+    font-size: 1.2em;
+}
+main{
+    min-width: 280px;
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 5px 5px 15px black;
+    margin-bottom: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+main  h1{
+    padding-top: 15px;
+    padding-left: 10px;
+    color: rgb(26, 63, 26);
+}
+main > h2{
+    margin: 10px;
+    background-image: linear-gradient(to right, #60ca606b, transparent);
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+}
+.youtube{
+    text-decoration: none;
+    color: rgb(73, 43, 43);
+    font-family: 'Courier New', Courier, monospace;
+}
+.youtube:hover{
+    background-color: rgba(211, 148, 148, 0.473);
+    border-radius: 15px;
+    font-size: 16px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.705);
+}
+abbr{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+aside{
+background-color: rgba(68, 117, 68, 0.849);
+padding: 10px;
+border-radius: 15px;
+min-width: 300px;
+max-width: 800px;
+margin: 10px;
+}
+aside ul{
+list-style-position: inside;
+}
+footer{
+    background-image: linear-gradient(to right, rgba(79, 146, 79, 0.452), transparent);
+    padding: 5px;
+}
+footer p{
+    text-align: center;
+    font-size: 0.8em;
+}
+.Video{
+    margin-bottom: 30px;
+    position: relative;
+    padding: 10px;
+}
+div.Video > iframe{
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px;
+}
+p a{
+    text-decoration: none;
+    color: White;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+body > p{
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+body > p:hover{
+    font-weight: bold;
+    font-size: 2.3em;
+    transition-duration: 1s;
+}
+p a:hover{
+    background-image: linear-gradient(to right, #519c518c, transparent);
+    box-shadow: 2px 2px 2px black;
+}

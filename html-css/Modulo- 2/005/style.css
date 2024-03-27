@@ -1,0 +1,20 @@
+div{
+    text-align: center;
+    background-color: azure;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+}
+div > img{
+   width: 100px;
+   height: 100px;
+   display: none;
+}
+div:hover{
+    background-color: brown;
+}
+div:hover > img{
+    display: block;
+}

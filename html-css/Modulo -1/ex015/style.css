@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    box-shadow: 35px 20px 30px 10px black;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}
+p{
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 35px 20px 30px 10px black;
+}
+body > h1 > a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

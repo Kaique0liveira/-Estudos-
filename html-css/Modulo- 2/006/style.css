@@ -1,0 +1,32 @@
+@charset "UTF-8";
+p > a{
+    text-decoration: none;
+    color: white;
+}
+li > a{
+    text-decoration: none;
+    color: aqua;
+}
+a:visited{
+    color: #509650;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 15px;
+}
+a:active{
+    color: #044104;
+}
+.Botão {
+    text-align: center;
+    background-color: black;
+    margin: auto;
+    width: 100px;
+    border-radius: 15px;
+}
+.Botão:hover > a{
+    color: rgb(45, 45, 90);
+}
+.Botão:active > a{
+    color: rgb(83, 133, 133);
+}

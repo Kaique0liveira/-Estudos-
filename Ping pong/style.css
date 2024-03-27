@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    background-color: green;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+p{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}

@@ -1,0 +1,111 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #2788c0;
+}
+header{
+    background-image: linear-gradient(to bottom,#2788c0,#1b445c );
+    margin: auto;
+    min-width: 300px;
+    max-width: 900px;
+    padding: 10px;
+    border-radius: 5px;
+}
+header h1{
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+}
+header p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.8em;
+}
+nav{
+    margin-top: 45px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 120px;
+}
+nav a:hover{
+    font-weight: normal;
+    background-image: linear-gradient(to right, #30576b, #2847586e) ;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition-duration: 0.5s;
+}
+main{
+    margin: auto;
+    min-width: 300px;
+    max-width: 900px;
+    background-color: #2788c0;
+    padding: 10px;
+    box-shadow: 1px 2px 2px black;
+}
+main h1{
+    padding: 10px;
+    font-weight: normal;
+}
+main h2{
+    padding: 10px;
+    text-align: center;
+}
+main p {
+    text-align: justify;
+    text-indent: 15px;
+    margin-top: 10px;
+}
+Img{
+    width: 100%;
+    height: 100%;
+}
+.Video{
+    padding: 10px;
+}
+div.Video > Iframe{
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 350px;
+    padding: 5px;
+    border-radius: 15px;
+}
+footer{
+    margin-top: 10px;
+}
+footer p{
+    text-align: center;
+    font-weight: normal;
+    background-image: linear-gradient(to right, #286388, transparent);
+    box-shadow: 1px 2px 2px rgb(255, 255, 255);
+    font-size: 0.9em;
+    padding: 10px;
+}
+body > p{
+    margin-top: 25px;
+    text-align: center;
+}
+p a{
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+}
+p a:hover{
+    background-image: linear-gradient(to right, #1b445c , transparent);
+    font-weight: bold;
+    font-size: 1.4;
+    border-radius: 0px;
+    transition-duration: 1s;
+    color: black;
+}

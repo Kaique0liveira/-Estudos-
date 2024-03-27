@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #02020263 , #ffffff52);
+}
+main{
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #000000cc , #0000008e);
+    box-shadow: 1px 2px 2px 2px black;
+    
+}
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.BOTAO > p{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 2px 3px 3px 3px black;
+    width: 100px;
+    margin-top: 50px;
+}

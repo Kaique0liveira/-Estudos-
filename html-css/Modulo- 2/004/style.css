@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, white, #00000046);
+}
+main{
+    margin: auto;
+    width: 600px;
+}
+h1#principal{
+    text-align: center;
+    background-color: #357435;
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+}
+.basico{
+    color: rgb(30, 66, 30);
+}
+.inter{
+    color:  rgb(71, 67, 39);;
+}
+.avançado{
+    color:  rgb(66, 30, 30);;
+}
+p{
+    text-indent: 5px;
+    text-align: justify;
+}

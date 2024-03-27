@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+body > a > img{
+width: 100px;
+height: 100px;
+border-radius: 15px;
+}
+body > div{
+    margin: none;
+    border-radius: 15px;
+    margin: auto;
+}
+body > div > a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
