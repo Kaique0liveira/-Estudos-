@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-image: url(imagens/);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.bola{
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(imagens/t1jm692oad061.jpg);
+}
+div#a1{
+    background-position: center center;
+}
+div#a2{
+    background-position:  top;
+}
+div#a3{
+    background-position:  center;
+}
+div#a4{
+    background-position: bottom;
+}
