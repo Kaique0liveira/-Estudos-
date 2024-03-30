@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+    height: 98vh;
+    background-color: black;
+    background-image: url(imagens/90d369307d0a2cac8dd2cea650f4f797.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+    background-color: white;
+    min-width: 200px;
+    max-width: 400px;
+    border: 2px solid rgb(64, 77, 77);
+    margin: auto ;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px black;
+}
+p{
+    text-indent: 2px;
+    text-align: justify;
+}
