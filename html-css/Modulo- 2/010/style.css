@@ -6,11 +6,12 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 main{
     background-color: white;
-    min-width: 200px;
-    max-width: 400px;
+    min-width: 300px;
+    max-width: 700px;
     border: 2px solid rgb(64, 77, 77);
     margin: auto ;
     padding: 5px;
