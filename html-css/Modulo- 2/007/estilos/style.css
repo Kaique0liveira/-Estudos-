@@ -1,0 +1,22 @@
+@charset "UTF-8";
+div.Quadrado{
+    display: inline-block;
+    border: 1px solid rgb(35, 138, 124);
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: aqua;
+}
+body{
+    background-image: url(../imagens/5f7e9aa6-f3ea-448b-a5d4-ff916db50303.jpeg);
+}
+div#a1{
+background-color: black;
+border: 3px solid rgb(35, 138, 124);
+}
+div#a2{
+background-image: linear-gradient(to bottom, green, transparent);
+}
+div#a3{
+background-image: url(../imagens/image-2024-01-15T151951.486.jpg);
+}
