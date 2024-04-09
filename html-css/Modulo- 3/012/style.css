@@ -3,6 +3,10 @@
     margin: 0px;
     padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+:root{
+    --fontep: "Courgette", cursive;
+}
 html, body{
     min-height: 100vh;
     background-color: rgb(42, 59, 92);
@@ -11,6 +15,7 @@ header{
     background-color: black;
 }
 header h1 {
+    font-size: 5vw;
     padding-top: 50px;
     padding-bottom: 5px;
     color: white;
@@ -35,10 +40,13 @@ a:hover{
     color: rgba(255, 255, 255, 0.185);
 }
 section{
+    font-weight: lighter;
+    font-family: var(--fontep);
     line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    font-size: 1.7vw;
 }
 .normal{
     text-align: justify;
