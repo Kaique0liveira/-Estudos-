@@ -51,13 +51,22 @@ section{
 section p{
     padding-bottom: 2em;
 }
+section.imagem>p{
+    text-shadow: 1px 1px 0px black;
+}
 section#img01{
     background-image: url('./__MACOSX/imagens/vista-aproximada-de-uma-joaninha-sobre-uma-folha.webp');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 1px 1px black;
+    background-position: center;
 }
 section#img02{
     background-image: url('__MACOSX/imagens/african-lion-2888519_640.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .normal{
     text-align: justify;
