@@ -49,13 +49,15 @@ section{
 section.normal{
     background-color: rgb(35, 53, 53);
 }
+section.imagem{
+    box-shadow: inset 1px 2px 2px black;
+}
 section.imagem  p{
-    box-shadow: 1px 2px 2px black;
     background-color: rgba(0, 0, 0, 0.384);
     height: 400px;
     width: 600px;
     margin-left: 50px;
-   color: white;
+    color: white;
 }
 
 section#img01{
