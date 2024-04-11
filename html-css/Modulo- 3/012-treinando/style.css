@@ -21,7 +21,7 @@ header h1{
 header a:hover{
     text-decoration: underline;
     font-size: 1.4em;
-    color: rgba(255, 255, 255, 0.473);
+    color: rgba(37, 32, 32, 0.959);
     transition-duration: 1s;
     font-weight: bold;
 }
@@ -72,4 +72,20 @@ section#img02{
     background-size: cover;
     background-attachment: fixed;
     background-position: left center;
+}
+footer{
+    background-color: black;
+    margin: 0px;
+}
+footer p {
+    padding: 3px;
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+}
+footer p:active{
+    font-size: 1.2em;
+    color: rgba(70, 29, 29, 0.068);
+    text-decoration: underline;
+    transition-duration: 1s;
 }
