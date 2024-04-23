@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+tr.linha:hover{
+    background-color: gray;
+    color: white;
+}
+tr.clicar:active{
+    background-color: rgb(66, 66, 56);
+    color: white;
+    
+}
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
